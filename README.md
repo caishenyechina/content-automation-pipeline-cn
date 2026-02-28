@@ -25,6 +25,17 @@
 
 ## 代码能力（已内置）
 
+### 启动 API（本地）
+
+```powershell
+pip install -r requirements.txt
+uvicorn src.api:app --reload --port 8013
+```
+
+- 健康检查：`GET http://127.0.0.1:8013/health`
+- Swagger：`http://127.0.0.1:8013/docs`
+
+
 - `src/content_pipeline.py`
   - `generate`：按主题生成主文案
   - `repurpose`：一稿改写为不同平台版本
