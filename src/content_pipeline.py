@@ -35,8 +35,11 @@ def repurpose(text: str, platform: str):
 def plan_week(topics, out_path: Path):
     weekdays = ["周一", "周二", "周三", "周四", "周五"]
     lines = ["# 本周内容排期", f"生成时间：{dt.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}", ""]
-    for i, t in enumerate(topics[:5]):
-        lines.append(f"- {weekdays[i]}：{t}")
+    if not topics:
+        lines.append("- 暂无选题，请先补充 topics")
+    else:
+        for i, t in enumerate(topics[:5]):
+            lines.append(f"- {weekdays[i]}：{t}")
     out_path.write_text("\n".join(lines), encoding="utf-8")
     return out_path
 
