@@ -88,6 +88,15 @@ docker run --rm -p 8013:8013 content-pipeline-cn
 
 ---
 
+## 关联仓库（推荐一起看）
+
+- OpenClaw Biz Assistant Starter  
+  https://github.com/caishenyechina/openclaw-biz-assistant-starter
+- China Market Watchdog  
+  https://github.com/caishenyechina/china-market-watchdog
+
+---
+
 ## 联系方式
 
 - QQ：4553377
