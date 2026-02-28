@@ -32,6 +32,10 @@ python -m pip install -r requirements.txt
 python -m uvicorn src.api:app --reload --port 8013
 ```
 
+### 环境变量
+
+复制 `.env.example` 为 `.env` 并按需修改。
+
 ### 开发者快速开始
 
 ```powershell
