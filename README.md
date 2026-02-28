@@ -23,6 +23,23 @@
 
 ---
 
+## 代码能力（已内置）
+
+- `src/content_pipeline.py`
+  - `generate`：按主题生成主文案
+  - `repurpose`：一稿改写为不同平台版本
+  - `plan-week`：生成周排期文件
+- `scripts/run-demo.ps1`：一键演示命令
+
+示例：
+
+```powershell
+python .\src\content_pipeline.py generate --topic "老板助手自动化"
+python .\src\content_pipeline.py repurpose --input .\examples\post.example.txt --platform x
+```
+
+---
+
 ## 项目结构
 
 ```txt
