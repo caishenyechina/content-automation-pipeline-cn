@@ -77,6 +77,17 @@ content-automation-pipeline-cn/
 
 ---
 
+## 快速部署（Docker）
+
+```bash
+docker build -t content-pipeline-cn .
+docker run --rm -p 8013:8013 content-pipeline-cn
+```
+
+更多 API 调用示例见：`docs/API-EXAMPLES.md`
+
+---
+
 ## 联系方式
 
 - QQ：4553377
