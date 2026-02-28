@@ -100,6 +100,8 @@ docker run --rm -p 8013:8013 content-pipeline-cn
 - `docs/FAQ.md`
 - `docs/COOP-FLOW.md`
 - `docs/CASE-STUDY-TEMPLATE.md`
+- `docs/TESTIMONIAL-TEMPLATE.md`
+- `docs/PRICING-PAGE-COPY.md`
 - `docs/EN-OVERVIEW.md`
 
 ---
