@@ -96,6 +96,10 @@ docker run --rm -p 8013:8013 content-pipeline-cn
 - `docs/FOLLOW-UP-MESSAGES.md`
 - `docs/NO-REPLY-NUDGE.md`
 
+转化增强：
+- `docs/FAQ.md`
+- `docs/COOP-FLOW.md`
+
 ---
 
 ## 关联仓库（推荐一起看）
@@ -109,8 +113,8 @@ docker run --rm -p 8013:8013 content-pipeline-cn
 
 ## 联系方式
 
-- QQ：4553377
 - Email：4553377@qq.com
+- QQ：4553377
 
 ---
 
