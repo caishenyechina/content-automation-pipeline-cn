@@ -86,6 +86,11 @@ docker run --rm -p 8013:8013 content-pipeline-cn
 
 更多 API 调用示例见：`docs/API-EXAMPLES.md`
 
+成交资料：
+- `docs/QUOTE-TEMPLATE.md`
+- `docs/CONTRACT-LITE.md`
+- `docs/DELIVERY-REPORT.md`
+
 ---
 
 ## 关联仓库（推荐一起看）
